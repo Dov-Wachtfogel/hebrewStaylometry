@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "name": "Hebrew example corpus",
+  "texts": [
+    {
+      "text_id": "e9e0e8c4098c4c2d90709706e2106528",
+      "filename": "דוד_המחשבה_1930.txt",
+      "metadata": {
+        "author": "דוד",
+        "title": "המחשבה",
+        "date": "1930",
+        "genre": "essay",
+        "period": "modern",
+        "chapter": "1"
+      }
+    },
+    {
+      "text_id": "c88d11561bc943aca726fc982d53306e",
+      "filename": "כהן_העיר_1910.txt",
+      "metadata": {
+        "author": "כהן",
+        "title": "העיר",
+        "date": "1910",
+        "genre": "narrative",
+        "period": "modern",
+        "chapter": "1"
+      }
+    },
+    {
+      "text_id": "35484f19426349fba09bcacbd80f4dab",
+      "filename": "לוי_המסע_1900.txt",
+      "metadata": {
+        "author": "לוי",
+        "title": "המסע",
+        "date": "1900",
+        "genre": "narrative",
+        "period": "modern",
+        "chapter": "1"
+      }
+    },
+    {
+      "text_id": "a2ec6a04ea1c48c49a4cc294294711d3",
+      "filename": "רחל_המכתב_1920.txt",
+      "metadata": {
+        "author": "רחל",
+        "title": "המכתב",
+        "date": "1920",
+        "genre": "letter",
+        "period": "modern",
+        "chapter": "1"
+      }
+    }
+  ],
+  "settings": {
+    "nlp": {
+      "backend": "dicta",
+      "model_name": "dicta-il/dictabert-tiny-joint",
+      "revision": "main",
+      "device": "cpu",
+      "strip_niqqud": true,
+      "segmented": true,
+      "batch_size": 8
+    },
+    "analysis": {
+      "field": "lemma",
+      "feature_type": "mfw",
+      "n_mfw": 100,
+      "mattr_window": 30,
+      "ngram_n": 2,
+      "stop_words": [],
+      "distance": "delta",
+      "linkage": "average",
+      "perplexity": 30.0,
+      "random_state": 42,
+      "target": "דוד_המחשבה_1930.txt",
+      "window_size": 30,
+      "step_size": 10,
+      "color_by": "author",
+      "kind": "PCA 3D"
+    }
+  }
+}

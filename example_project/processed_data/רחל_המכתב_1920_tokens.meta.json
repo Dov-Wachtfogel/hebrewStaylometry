@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "fingerprint": "3ca89e584abb2f8465bf1092b1a59be41c3424513f6a84320fabcac58f40cb5c",
+  "csv_sha256": "9217c6acdfb1a83e730c0bc9612aa8420e104b6a2759e40d804ba44fca6224e4",
+  "text_id": "a2ec6a04ea1c48c49a4cc294294711d3",
+  "filename": "רחל_המכתב_1920.txt",
+  "settings": {
+    "backend": "dicta",
+    "model_name": "dicta-il/dictabert-tiny-joint",
+    "revision": "main",
+    "device": "cpu",
+    "strip_niqqud": true,
+    "segmented": true,
+    "batch_size": 8
+  },
+  "token_count": 119
+}

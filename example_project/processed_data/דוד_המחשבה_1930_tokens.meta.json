@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "fingerprint": "585c94dd35bec69629af803b4188ce38fa495743aba39b045ec4edb5f57c1130",
+  "csv_sha256": "7bc5191f5996bf215a43896a315e68c8b06f652e8c759bdb05b80f8d265266f1",
+  "text_id": "e9e0e8c4098c4c2d90709706e2106528",
+  "filename": "דוד_המחשבה_1930.txt",
+  "settings": {
+    "backend": "dicta",
+    "model_name": "dicta-il/dictabert-tiny-joint",
+    "revision": "main",
+    "device": "cpu",
+    "strip_niqqud": true,
+    "segmented": true,
+    "batch_size": 8
+  },
+  "token_count": 111
+}

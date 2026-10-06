@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "fingerprint": "85c0523c51ac01065e85311f449c1830c77a912dfdb27a7d32bfb73487e3ea5d",
+  "csv_sha256": "cd05eccde4c48f68017d03708c7c7e8896796c726d337d3531fa09fac3429b72",
+  "text_id": "c88d11561bc943aca726fc982d53306e",
+  "filename": "כהן_העיר_1910.txt",
+  "settings": {
+    "backend": "dicta",
+    "model_name": "dicta-il/dictabert-tiny-joint",
+    "revision": "main",
+    "device": "cpu",
+    "strip_niqqud": true,
+    "segmented": true,
+    "batch_size": 8
+  },
+  "token_count": 104
+}

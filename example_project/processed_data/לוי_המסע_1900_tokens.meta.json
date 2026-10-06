@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "fingerprint": "be2bfee793b5bfe28f55278669f2dd9c4630f02273c9fcaa09a334cd9985d1c9",
+  "csv_sha256": "812fed6eb1847b4027f9660d114e0c1ced0665bfbf6e7bec5ccb875a5bb7fc04",
+  "text_id": "35484f19426349fba09bcacbd80f4dab",
+  "filename": "לוי_המסע_1900.txt",
+  "settings": {
+    "backend": "dicta",
+    "model_name": "dicta-il/dictabert-tiny-joint",
+    "revision": "main",
+    "device": "cpu",
+    "strip_niqqud": true,
+    "segmented": true,
+    "batch_size": 8
+  },
+  "token_count": 120
+}
